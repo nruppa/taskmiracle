@@ -1,0 +1,141 @@
+:host ::ng-deep .p-toolbar {
+    text-align: center;
+    background-color: transparent;
+}
+
+
+.col {
+    background-color: black;
+    position: relative;
+    top: -10px;
+    right: 10px;
+    width: 1602px;
+}
+
+.col1 {
+    background-color:rgb(67, 182, 228);
+    position: relative;
+    top: -14px;
+    right: 10px;
+    width: 1602px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    font-size: 300px;
+    /* text-align: center; */
+}
+
+/* @media screen and (max-width:600px) and (min-width:702) {
+    col1 {
+        width: 1000px;
+        right: 268px;
+        font-size: medium;
+    }
+} */
+
+.navbar {
+    display: flex;
+    
+}
+
+/* .navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+} */
+
+@media screen and (max-width: 700px) {
+
+    .row,
+    .navbar {
+        flex-direction: column;
+        background: #f8f9fa;
+        border: 1px solid #dee2e6;
+        padding: -21.75rem;
+        border-radius: 6px;
+        position: relative;
+        right: 236px;
+        /* right: 258px; */
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .row,
+    .navbar a {
+        flex-direction: column;
+        background: #f8f9fa;
+        border: 1px solid #dee2e6;
+        padding: -21.75rem;
+        border-radius: 6px;
+        position: relative;
+        right: 258px;
+    }
+}
+.total {
+    overflow-x: hidden;
+}
+:host ::ng-deep .p-splitbutton {
+    display: inline-flex;
+    position: relative;
+    left: 950px;
+    /* right: 136px; */
+    /* background-color: transparent; */
+}
+:host ::ng-deep .p-button.p-button-icon-only {
+    width: 3rem;
+    padding: 0.75rem 0;
+    background: transparent;
+    border: none;
+}
+:host ::ng-deep .p-splitbutton .p-splitbutton-defaultbutton
+{
+flex: 1 1 auto;
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+border-right: 0 none;
+border: none;
+background: transparent;
+}
+.nav {
+    display: flex;
+    
+}
+.nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+@media screen and (max-width: 700px)
+{
+    .row,
+    .nav {
+        flex-direction: column;
+        background: #f8f9fa;
+        border: 1px solid #dee2e6;
+        padding: -21.75rem;
+        border-radius: 6px;
+        position: relative;
+        right: 236px;
+    }
+}
+
+:host ::ng-deep .p-splitbutton {
+    display: flex;
+}
+@media screen and (max-width:200px) 
+{
+    .row,
+    .p-splitbutton{
+        position: relative;
+        right: 136px;
+        top: 24px;
+    }
+}
+/* @media screen and (max-width: 00px)
+{
+    .total {
+        overflow-x: hidden;
+    }
+} */

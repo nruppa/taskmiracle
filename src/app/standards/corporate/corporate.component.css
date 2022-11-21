@@ -1,0 +1,87 @@
+:host ::ng-deep .p-card .p-card-body {
+    padding: 6.5rem;
+    background: white;
+    text-align: center;
+
+
+}
+
+:host ::ng-deep .p-card .p-card-content {
+    padding: 1px;
+    position: relative;
+    top: -86px;
+    background: white;
+
+}
+
+div.p-card {
+    width: 3504px;
+}
+
+:host ::ng-deep .p-menubar .p-menubar-custom,
+.p-menubar .p-menubar-end {
+    margin-left: auto;
+    align-self: center;
+    position: relative;
+    background-color: #8080801f;
+    right: 1168px;
+    color: gray
+}
+
+/* .tool{
+    position: relative;
+    width: 899px;
+    position: relative;
+    width: 1290px;
+} */
+.navbar {
+    display: flex;
+}
+
+@media screen and (max-width: 700px) {
+    .p-card .p-card-body {
+        /* padding: 6.5rem; */
+        background: white;
+        /* text-align: center; */
+    }
+}
+
+@media screen and (max-width: 700px) {
+    :host ::ng-deep .p-card .p-card-content {
+        padding: 1px;
+        position: relative;
+        top: -86px;
+        background: white;
+        right: 180px;
+    }
+}
+
+
+/* @media screen and (max-width: 700px) 
+{
+    :host ::ng-deep .p-card .p-card-content {
+        padding: 1rem 0;
+        background: aliceblue;
+        top: -619px;
+        position: relative;
+        width: 1085px;
+        left: 86px; 
+    }
+} */
+/* padding: 1rem 0;
+    background: aliceblue;
+    top: -619px;
+    position: relative;
+    width: 1085px;
+    left: 86px; */
+
+:host ::ng-deep .p-menu {
+    padding: 0.25rem 0;
+    background: #ffffff;
+    /* color: #495057; */
+    background: #80808038;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    width: 12.5rem;
+    height: 389px;
+}

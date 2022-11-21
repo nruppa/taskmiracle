@@ -1,0 +1,112 @@
+<!-- <div class="navbar">
+    <p-card class="nav">
+        <p-scrollPanel>
+            <div>
+                <h1 style="position: relative;right:334px;color: #2368a0;">Virtual Meeting Backgrounds</h1>
+                <h4 style="position: relative;right:362px;">Following are the virtual meeting backgrounds</h4>
+            </div>
+            <table>
+                <tr>
+                    <td>
+                        <div class="card">
+                            <video controls #videoPlayer>
+                                <source src="assets\virtual\Blue-Wave.mp4" type="video/mp4" />
+                            </video>
+                            <div class="overlay"></div>
+                            <div class="button">
+                                <a href="assets\virtual\Blue-Wave.mp4" download=""
+                                    style="position:relative;text-decoration:none">Download</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <video controls #videoPlayer>
+                                <source src="assets\virtual\Circular-Lines.mp4" type="video/mp4" />
+                            </video>
+                            <div class="overlay"></div>
+                            <div class="button">
+                                <a href="assets\virtual\Circular-Lines.mp4" download=""
+                                    style="position:relative;text-decoration:none">Download</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <video controls #videoPlayer>
+                                <source src="assets\virtual\Connecting-Dots.mp4" type="video/mp4" />
+                            </video>
+                            <div class="overlay"></div>
+                            <div class="button">
+                                <a href="assets\virtual\Connecting-Dots.mp4" download=""
+                                    style="position:relative;text-decoration:none">Download</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="card">
+                            <video controls #videoPlayer>
+                                <source src="assets\virtual\Dark-Plexus.mp4" type="video/mp4" />
+                            </video>
+                            <div class="overlay"></div>
+                            <div class="button">
+                                <a href="assets\virtual\Dark-Plexus.mp4" download=""
+                                    style="position:relative;text-decoration:none">Download</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <video controls #videoPlayer>
+                                <source src="assets\virtual\Global-Infra.mp4" type="video/mp4" />
+                            </video>
+                            <div class="overlay"></div>
+                            <div class="button">
+                                <a href="assets\virtual\Global-Infra.mp4" download=""
+                                    style="position:relative;text-decoration:none">Download</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </p-scrollPanel>
+    </p-card>
+</div> -->
+
+<p-card>
+    <p-scrollPanel>
+        <div>
+            <h1 style="position: relative;right:334px;color: #2368a0;">Virtual Meeting Backgrounds</h1>
+            <h4 style="position: relative;right:362px;">Following are the virtual meeting backgrounds</h4>
+        </div>
+        <div class="grid">
+            <div *ngFor="let video of videos;let i = index " (mouseenter)="mouseEnter(i)" (mouseleave)="mouseEnter('')">
+                <video [src]="video" type="video/mp4">
+                </video>
+                <!-- <video controls #videoPlayer>
+                    <source src="video" type="video/mp4" />
+                </video> -->
+                <div class="button" >
+                    <a [href]="video" *ngIf="hoveredIndex === i" download="{{video}}"
+                        style="position:relative;text-decoration:none;color:white">Download</a>
+                </div>
+            </div>
+        </div>
+    </p-scrollPanel>
+</p-card>
+<!-- <video controls #videoPlayer>
+    <source src="https://vjs.zencdn.net/v/oceans.mp4" type="video/mp4" />
+</video>
+<video controls #videoPlayer>
+    <source src="assets\virtual\Circular-Lines.mp4" type="video/mp4" />
+</video> -->
+
+
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+.input {
+    position: relative;
+    top: -15px;
+    width: 1602px;
+    right: 10px;
+}
+
+@media screen and (max-width:600px) and (min-width:702) {
+    col1 {
+        width: 1000px;
+        right: 268px;
+        font-size: medium;
+    }
+}
+
+.navbar {
+    display: flex;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+
+    .row,
+    .navbar {
+        flex-direction: column;
+        flex-direction: column;
+        background: #f8f9fa;
+        border: 1px solid #dee2e6;
+        padding: -21.75rem;
+        border-radius: 6px;
+        position: relative;
+        right: 236px;
+    }
+}

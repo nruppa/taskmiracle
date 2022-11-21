@@ -1,0 +1,200 @@
+:host ::ng-deep .video {
+    position: relative;
+    top: 12px;
+    width: 213px;
+    height: 108px;
+    right: 7px;
+    border: 3px solid white;
+}
+
+
+:host ::ng-deep .p-scrollpanel-wrapper {
+
+    /* overflow: auto;
+    width: 1157px;
+    height: 374px;
+    position: relative;
+    z-index: 1;
+    float: left; */
+    width: 1156px;
+    position: relative;
+    height: 375px;
+    z-index: 1;
+    float: left;
+    overflow-y: auto;
+}
+
+
+.p-scrollpanel-content {
+    height: 368px;
+    width: 1147px;
+    padding: 0 18px 18px 0;
+    position: relative;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+:host ::ng-deep .p-scrollpanel .p-scrollpanel-bar {
+    background: transparent;
+    border: 0 none;
+    width: 98.7406%;
+    left: 0%;
+    bottom: 16px;
+}
+
+video {
+    position: relative;
+    top: 12px;
+    width: 337px;
+    height: 182px;
+    left: 7px;
+    border: 2px solid rgb(67, 182, 228);
+
+}
+
+.p-card .p-card-body {
+    padding: 6.0rem;
+    background: transparent;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    height: 305px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 234px;
+}
+
+:host ::ng-deep .p-card .p-card-content {
+    padding: 1rem 0;
+    background: transparent;
+    background: transparent;
+    top: -686px;
+    position: relative;
+    width: 1153px;
+    left: 201px;
+}
+
+.p-card .p-card-body {
+    padding: 6.0rem;
+    background: transparent;
+    text-align: center;
+}
+
+.button {
+    position: relative;
+    background-color: gray;
+    padding: 0px 0px;
+    width: 78px;
+    bottom: 92px;
+    left: 148px;
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+
+.grid:hover .button {
+    opacity: 1
+}
+
+
+/* 
+:host ::ng-deep .p-button {
+    left: -119px;
+    top: -36px;
+}
+
+.card {
+
+    position: relative;
+    width: 369px;
+    height: 199px;
+    overflow: hidden;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+}
+
+:host ::ng-deep .p-card .p-card-content {
+    padding: 1rem 0;
+    background: transparent;
+    background: transparent;
+    top: -686px;
+    position: relative;
+    width: 1153px;
+    left: 201px;
+}
+
+.p-card .p-card-body {
+    padding: 6.0rem;
+    background: transparent;
+    text-align: center;
+}
+
+video {
+    position: relative;
+    width: 345px;
+    height: 171px;
+    left: 10px;
+    border: 3px solid rgb(67, 182, 228);
+}
+
+.button {
+    position: absolute;
+    width: 500px;
+    left: 0;
+    top: 180px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+
+.button a {
+    width: 119px;
+    padding: 7px 21px;
+    text-align: center;
+    color: blue;
+    border: solid 2px blue;
+    z-index: 0;
+    position: relative;
+    right: 56px;
+    background: lightblue;
+    bottom: 116px;
+}
+
+
+.card:hover .button {
+    opacity: 1;
+}
+:host ::ng-deep .p-scrollpanel-wrapper {
+
+    overflow: auto;
+    width: 1157px;
+    height: 374px;
+    position: relative;
+    z-index: 1;
+    float: left;
+}
+
+
+.p-scrollpanel-content {
+    height: calc(85% + 28px);
+    width: calc(99% + 20px);
+    position: relative;
+    overflow: auto;
+}
+
+:host ::ng-deep .p-scrollpanel .p-scrollpanel-bar {
+    background: transparent;
+    border: 0 none;
+    width: 98.7406%;
+    left: 0%;
+    bottom: 16px;
+} */

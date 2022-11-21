@@ -1,0 +1,15 @@
+<h2>TimeSheets</h2>
+<p-button (click)="sheets()" icon="pi pi-plus" label="Add"></p-button>
+<p-dialog header="you are about to add timesheets for the week" [contentStyle]="{'overflow': 'visible'}"
+  [formGroup]="calendar" [(visible)]="time" [modal]="true"  >
+  <h4>({{firstday | date:'MMMM d, y'}} - {{lastday | date:'MMMM d, y'}})</h4>
+  <p>If you wish to change date,click here
+    <p-calendar [inputStyle]="{ 'display':'none'}" formControlName="selectdate" (onSelect)="fetchdate()" 
+      [showIcon]="true" [maxDate]="dateTime"></p-calendar>
+  </p>
+  <br><br>
+  <p-button type="button" (click)="proceed()" routerLink="/proceed">Proceed</p-button>
+  <p-inputNumber inputId="integeronly" placeholder="0">
+</p-inputNumber>
+</p-dialog>
+

@@ -1,0 +1,39 @@
+<div class="total">
+    <div class="col">
+    <p-toolbar>
+        <div class="nav">
+            <img align-items-center="1.5px" src="assets\miraclewhite-1.png" alt="image"
+                style="aspect-ratio:auto 50/33;width:134px; height: 49px;color:white; position: relative;left: 256px;">
+            <p-splitButton class="split" label="Niharika Ruppa" [model]="item">
+            </p-splitButton>
+        <a style="position:relative;left: 87px;color:white ;text-decoration: none;">Home</a>
+        <a href="https://hubble.miraclesoft.com/" target="_blank"
+            style="position:relative;left:100px;color:white;text-decoration: none;">Hubble</a>
+        <a href="https://mail.miraclesoft.com/" target="_blank"
+            style="position:relative;left: 120px;color:white;text-decoration: none;">Email</a>
+        </div>
+    </p-toolbar>
+</div>
+<div class="col1">
+    <p-toolbar>
+        <div class="navbar">
+            <button pButton pRipple label="Employee" class="p-button-text p-button-plain;" routerLink="/Employee"
+              style="position:relative;left: 252px;color:rgba(0, 0, 0, 0.603);">
+                <i class="pi pi-user" style="font-size: 1.5rem;position:relative;right: 8px;"></i>
+            </button>
+            <button pButton pRipple label="Standards" class="p-button-text p-button-plain;" routerLink="/Standards"
+                style="position:relative;left:253px;color:rgba(0, 0, 0, 0.603);">
+                <i class="pi pi-box" style="font-size: 1.5rem;position:relative;right: 8px;"></i>
+            </button>
+            <button pButton pRipple label="Resource" class="p-button-text p-button-plain;" routerLink="/Resource"
+                style="position:relative;left:254px;color:rgba(0, 0, 0, 0.603);">
+                <i class="pi pi-book" style="font-size: 1.5rem;position:relative;right: 8px;"></i>
+            </button>
+            <button pButton pRipple label="Your Apps" class="p-button-text p-button-plain;" routerLink="/yourapps"
+                style="position:relative;left:255px;color:rgba(0, 0, 0, 0.603);">
+                <i class="pi pi-briefcase" style="font-size: 1.5rem;position:relative;right: 8px;"></i>
+            </button>
+        </div>
+    </p-toolbar>
+</div>
+<router-outlet></router-outlet>

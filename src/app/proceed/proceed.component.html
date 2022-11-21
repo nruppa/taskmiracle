@@ -1,0 +1,127 @@
+<p>proceed works!</p>
+<p-card>
+    <button pButton type="button" icon="pi pi-arrow-left" (click)="clickMe()"></button><br><br>
+    <table>
+        <div>
+            <tr>
+                <th>Category</th>
+                <th>09/04/2022<br> Sunday </th>
+                <th>09/05/2022<br> Monday </th>
+                <th>09/06/2022<br> Tuesday </th>
+                <th>09/07/2022<br> Wednesday </th>
+                <th>09/08/2022<br> Thursday </th>
+                <th>09/09/2022<br> Friday </th>
+                <th>09/10/2022<br> Saturday </th>
+            </tr>
+            <tr>
+                <td><b>Total (Hrs)</b></td>
+                <td><p-inputNumber type="text" class="value" placeholder="0" ></p-inputNumber></td>
+                <td><p-inputNumber type="text" class="value" placeholder="0" ></p-inputNumber></td>
+                <td><p-inputNumber type="text" class="value" placeholder="0" ></p-inputNumber></td>
+                <td><p-inputNumber type="text" class="value" placeholder="0" ></p-inputNumber></td>
+                <td><p-inputNumber type="text" class="value" placeholder="0" ></p-inputNumber></td>
+                <td><p-inputNumber type="text" class="value" placeholder="0" ></p-inputNumber></td>
+                <td><p-inputNumber type="text" class="value" placeholder="0" ></p-inputNumber></td>
+            </tr>
+            <tr>
+                <td>
+                    <input style="width:960%;" placeholder="NOTES" type="text" class="p-inputtext-sm" pInputText />
+                </td>
+            </tr>
+            <tr>
+                <p-fileUpload pButton mode="basic" accept="pdf*" [maxFileSize]="maxsize"
+                    (onUpload)="onBasicUploadAuto($event)" [auto]="true" chooseLabel="Upload"></p-fileUpload>
+
+                <td><button pButton type="button" label="Save as draft" style="position:relative;left: 1000px; top:0px"
+                        class="p-button-success"></button>
+                </td>
+                <td><button pButton type="button" label="Submit" style="position:relative;left:950px; top:0px"
+                        class="p-button-help"></button>
+                </td>
+            </tr>
+        </div>
+    </table>
+</p-card> 
+
+
+<!-- <p-fileUpload  id="file" name="file" type="file"></p-fileUpload> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <button pButton type="button" icon="pi pi-arrow-left" (click)="clickMe()"></button><br><br>
+<form [formGroup]="form">
+    <div class="grid">
+        <h4></h4>
+    </div>
+    <div class="grid ">
+        <div class="col-1" *ngFor="let weekDate of weekDates ;let i=index" >
+            <label>{{weekDate | date }}</label><br>
+            <div style="color:Gray ;">{{days[i]}}</div><br>
+            <input type="text" class="input1" placeholder="0" formControlName="first" pInputText />
+        </div>
+        <br>
+    </div>
+    <div class="grid">
+        <h4>Total Hrs</h4>
+    </div>
+    <div class="grid ">
+        <div class="col-1" *ngFor="let weekDate of weekDates ;let i=index">
+            <input type="text" class="input1" placeholder="0" formControlName="third" pInputText />
+        </div>
+
+    </div>
+</form>
+
+<br>
+
+<textarea pInputTextarea placeholder="Enter notes related to your daily activity" style="width:100%"></textarea><br><br>
+<button pButton type="button" >Submit</button> -->
+<!-- <p-card>
+    <button pButton type="button" icon="pi pi-arrow-left" (click)="clickMe()"></button><br><br>
+    <form [formGroup]="form">
+        <div class="grid">
+            <h4>Category</h4>
+            &nbsp;&nbsp;
+            <div class="col-1" *ngFor="let weekDate of weekDates ;let i=index">
+                <label>{{weekDate | date }}</label><br>
+                <div style="color:Gray ;">{{days[i]}}</div><br>
+            </div>
+        </div>
+        <div class="grid">
+            <h4>Total (Hrs)</h4>
+            <div class="col-1" *ngFor="let weekDate of weekDates ;let i=index">
+                <p-inputNumber type="text"  class="input1"  placeholder="0" formControlName="First"  ></p-inputNumber>
+                      
+            </div>
+        </div>
+        <br><br>
+        <br>
+        <div class="grid">
+            <input style="width:60%;" placeholder="NOTES" type="text" class="p-inputtext-sm" pInputText />
+        </div><br><br>
+        <br>
+        <div class="grid">
+            <p-fileUpload mode="basic" accept=".pdf/*" [maxFileSize]="maxsize" (onUpload)="onBasicUploadAuto($event)"
+                [auto]="true" chooseLabel="Upload"></p-fileUpload>
+            <button pButton type="button" label="Save as Draft" style="position:relative;left:900px; top:0px"
+                class="p-button-warning"></button>
+            <button pButton type="button" (click)="submit()" label="Submit"
+                style="position:relative;left:950px; top:0px" class="p-button-help">
+            </button>
+        </div>
+    </form>
+</p-card> -->
