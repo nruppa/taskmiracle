@@ -22,6 +22,7 @@ const routes: Routes =
     { path: 'hubble', component: HubbleComponent },
     { path: 'email', component: EmailComponent }
 
+
   ];
 
 //  {

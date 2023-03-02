@@ -284,7 +284,6 @@ img {
   top: 45px;
   row-gap: 20px;
   grid-template-columns: repeat(4, 3fr);
-
 }
 :host ::ng-deep .p-scrollpanel-wrapper {
   overflow: hidden;
@@ -311,7 +310,7 @@ img {
 
 :host ::ng-deep .p-scrollpanel-content {
   height: 370px;
-  width: 1158px;
+  width: 1121px;
   padding: 0 18px 18px 0;
   position: relative;
   overflow-y: auto;

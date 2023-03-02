@@ -1,47 +1,20 @@
 <p>proceed works!</p>
-<p-card>
-    <button pButton type="button" icon="pi pi-arrow-left" (click)="clickMe()"></button><br><br>
-    <table>
-        <div>
-            <tr>
-                <th>Category</th>
-                <th>09/04/2022<br> Sunday </th>
-                <th>09/05/2022<br> Monday </th>
-                <th>09/06/2022<br> Tuesday </th>
-                <th>09/07/2022<br> Wednesday </th>
-                <th>09/08/2022<br> Thursday </th>
-                <th>09/09/2022<br> Friday </th>
-                <th>09/10/2022<br> Saturday </th>
-            </tr>
-            <tr>
-                <td><b>Total (Hrs)</b></td>
-                <td><p-inputNumber type="text" class="value" placeholder="0" ></p-inputNumber></td>
-                <td><p-inputNumber type="text" class="value" placeholder="0" ></p-inputNumber></td>
-                <td><p-inputNumber type="text" class="value" placeholder="0" ></p-inputNumber></td>
-                <td><p-inputNumber type="text" class="value" placeholder="0" ></p-inputNumber></td>
-                <td><p-inputNumber type="text" class="value" placeholder="0" ></p-inputNumber></td>
-                <td><p-inputNumber type="text" class="value" placeholder="0" ></p-inputNumber></td>
-                <td><p-inputNumber type="text" class="value" placeholder="0" ></p-inputNumber></td>
-            </tr>
-            <tr>
-                <td>
-                    <input style="width:960%;" placeholder="NOTES" type="text" class="p-inputtext-sm" pInputText />
-                </td>
-            </tr>
-            <tr>
-                <p-fileUpload pButton mode="basic" accept="pdf*" [maxFileSize]="maxsize"
-                    (onUpload)="onBasicUploadAuto($event)" [auto]="true" chooseLabel="Upload"></p-fileUpload>
-
-                <td><button pButton type="button" label="Save as draft" style="position:relative;left: 1000px; top:0px"
-                        class="p-button-success"></button>
-                </td>
-                <td><button pButton type="button" label="Submit" style="position:relative;left:950px; top:0px"
-                        class="p-button-help"></button>
-                </td>
-            </tr>
-        </div>
-    </table>
-</p-card> 
+<!-- <p-card> -->
+<!-- <button pButton type="button" icon="pi pi-arrow-left" (click)="clickMe()"></button><br><br> -->
+<table>
+        <tr>
+            <th>Category</th>
+            
+        </tr>
+        <tr>
+            <td><b>Total (Hrs)</b></td><br><br>
+            <td><input type="text" class="value" placeholder="0"></td>
+            <td><input type="text" class="value" placeholder="0"></td>
+            <td><input type="text" class="value" placeholder="0"></td>
+            <td><input type="text" class="value" placeholder="0"></td>
+        </tr>
+</table>
+<!-- </p-card>  -->
 
 
 <!-- <p-fileUpload  id="file" name="file" type="file"></p-fileUpload> -->

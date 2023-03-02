@@ -35,54 +35,54 @@ import {DataViewModule} from 'primeng/dataview';
 import { HiddenDirective } from './customDirective/hidden.directive';
 import { SelectButtonModule } from 'primeng/selectbutton';
 import {ToggleButtonModule} from 'primeng/togglebutton';
+import { ProceedComponent } from "./proceed/proceed.component";
 
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    TimeSheetsComponent,
-    AddComponent,
-    MainComponent,
-    HomeComponent,
-    HubbleComponent,
-    Add1Component,
-    EmployeComponent,
-    ResetpasswordComponent,
-    EmailComponent,
-    HiddenDirective,
-
-  ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    AppRoutingModule,
-    ReactiveFormsModule,
-    FormsModule,
-    DialogModule,
-    ButtonModule,
-    CalendarModule,
-    TagModule,
-    CardModule,
-    InputTextModule,
-    FileUploadModule,
-    HttpClientModule,
-    InputTextareaModule,
-    InputNumberModule,
-    ToolbarModule,
-    MenubarModule,
-    TabMenuModule,
-    TabViewModule,
-    DropdownModule,
-    SplitButtonModule,
-    ContextMenuModule,
-    DataViewModule,
-    SelectButtonModule,
-    ToggleButtonModule
-
-
-  ],
-  providers: [MessageService],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        TimeSheetsComponent,
+        AddComponent,
+        MainComponent,
+        HomeComponent,
+        HubbleComponent,
+        Add1Component,
+        EmployeComponent,
+        ResetpasswordComponent,
+        EmailComponent,
+        HiddenDirective,
+        ProceedComponent
+    ],
+    providers: [MessageService],
+    bootstrap: [AppComponent],
+    imports: [
+        BrowserModule,
+        BrowserAnimationsModule,
+        AppRoutingModule,
+        ReactiveFormsModule,
+        FormsModule,
+        DialogModule,
+        ButtonModule,
+        CalendarModule,
+        TagModule,
+        CardModule,
+        InputTextModule,
+        FileUploadModule,
+        HttpClientModule,
+        InputTextareaModule,
+        InputNumberModule,
+        ToolbarModule,
+        MenubarModule,
+        TabMenuModule,
+        TabViewModule,
+        DropdownModule,
+        SplitButtonModule,
+        ContextMenuModule,
+        DataViewModule,
+        SelectButtonModule,
+        ToggleButtonModule,
+        
+    ]
 })
 export class AppModule { }

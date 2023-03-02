@@ -24,7 +24,6 @@ export class PartnerlogosComponent implements OnInit {
     console.log("mouse enter");
     this.hoveredIndex = index;
   }
-
   mouseLeave() {
     console.log("mouse leave");
   }
